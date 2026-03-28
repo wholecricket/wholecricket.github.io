@@ -255,6 +255,19 @@ main {
   filter: drop-shadow(0 0 5px rgba(61, 255, 122, 0.55));
 }
 
+.link-handle {
+  margin-left: 0.2em;
+  font-size: 0.78em;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  color: var(--text-muted);
+}
+
+.link:hover .link-handle {
+  color: var(--green-dim);
+}
+
 .link:focus-visible {
   outline: 2px solid var(--green);
   outline-offset: 3px;
