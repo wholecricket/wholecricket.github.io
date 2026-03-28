@@ -69,7 +69,28 @@ body {
 }
 
 .intro {
-  margin-bottom: clamp(2rem, 8vw, 4rem);
+  margin-bottom: clamp(1rem, 3vw, 1.5rem);
+}
+
+.avatar-wrap {
+  margin: 0 0 clamp(1.25rem, 4vw, 2rem);
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-wrap,
+.avatar {
+  line-height: 0;
+}
+
+.avatar {
+  display: block;
+  width: clamp(5.75rem, 30vw, 10rem);
+  height: clamp(5.75rem, 30vw, 10rem);
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid rgba(61, 255, 122, 0.28);
+  box-shadow: var(--glow-soft);
 }
 
 .terminal-line {
